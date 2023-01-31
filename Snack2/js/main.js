@@ -7,7 +7,7 @@ let emptyList = [];
 
 let sum = 0;
 
-while (sum <= 50) {
+while (sum < 50) {
   let userNumber = parseInt(prompt("Inserisci un numero"));
   emptyList.push(userNumber);
   console.log("L' array contiene: " + emptyList);
