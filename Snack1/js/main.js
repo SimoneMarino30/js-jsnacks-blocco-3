@@ -19,7 +19,7 @@ if (isNaN(minimumNumber) && isNaN(maximumNumber)) {
 } else {
   // genero un numero compreso tra il valore minimo ed il valore massimo forniti dall'utente
   const output = Math.floor(
-    Math.random() * (maximumNumber - minimumNumber) + minimumNumber
+    Math.random() * (maximumNumber - minimumNumber + 1) + minimumNumber
   );
   alert("Il numero generato randomicamente è " + output);
 }
